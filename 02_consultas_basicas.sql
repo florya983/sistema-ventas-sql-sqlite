@@ -38,3 +38,46 @@ FROM productos;
 
 SELECT MAX(precio)
 FROM productos;
+
+SELECT stock, COUNT(*)
+FROM productos
+GROUP BY stock;
+
+SELECT stock, COUNT(*)
+FROM productos
+GROUP BY stock
+HAVING COUNT(*) > 1;
+
+SELECT *
+FROM productos
+WHERE nombre LIKE 'H%';
+
+SELECT *
+FROM productos
+WHERE nombre LIKE '%principito%';
+
+SELECT *
+FROM productos
+WHERE nombre LIKE '%a';
+
+SELECT *
+FROM productos
+WHERE nombre IN ('Dracula', 'It');
+
+SELECT *
+FROM productos
+WHERE precio BETWEEN 18000 AND 28000;
+
+SELECT *
+FROM productos
+WHERE precio IS NULL;
+
+SELECT *
+FROM productos
+WHERE precio IS NOT NULL;
+
+SELECT *
+FROM productos
+WHERE precio BETWEEN 18000 AND 28000
+ORDER BY precio DESC;
+

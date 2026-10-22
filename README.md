@@ -41,6 +41,4 @@ SQLite
 
 DB Browser for SQLite
 
-SQLite
-
 DB Browser for SQLite

@@ -81,3 +81,58 @@ FROM productos
 WHERE precio BETWEEN 18000 AND 28000
 ORDER BY precio DESC;
 
+SELECT
+    productos.nombre AS libro,
+    productos.precio AS precio,
+    autores.nombre AS autor
+FROM productos
+JOIN autores
+    ON productos.id_autor = autores.id;
+
+-- Mostrar todos los productos, aunque no tengan autor asociado
+SELECT
+    productos.nombre AS libro,
+    productos.precio AS precio,
+    autores.nombre AS autor
+FROM productos
+LEFT JOIN autores
+    ON productos.id_autor = autores.id;
+
+-- Buscar libros de un autor específico
+SELECT
+    productos.nombre AS libro,
+    productos.precio AS precio,
+    autores.nombre AS autor
+FROM productos
+JOIN autores
+    ON productos.id_autor = autores.id
+WHERE autores.nombre = 'Stephen King';
+
+-- Mostrar libros ordenados por precio, de mayor a menor
+SELECT
+    productos.nombre AS libro,
+    productos.precio AS precio,
+    autores.nombre AS autor
+FROM productos
+JOIN autores
+    ON productos.id_autor = autores.id
+ORDER BY productos.precio DESC;
+
+
+SELECT
+    productos.nombre AS libro,
+    productos.precio AS precio,
+    autores.nombre AS autor
+FROM productos
+JOIN autores
+    ON productos.id_autor = autores.id
+WHERE productos.precio > 20000
+ORDER BY productos.precio DESC;
+
+SELECT
+    autores.nombre AS autor,
+    COUNT(productos.id) AS cantidad_libros
+FROM autores
+LEFT JOIN productos
+    ON autores.id = productos.id_autor
+GROUP BY autores.id, autores.nombre;

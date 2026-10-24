@@ -6,28 +6,28 @@ Proyecto práctico de SQL utilizando SQLite para crear y relacionar tablas, carg
 
 ## Contenido
 - **`01_creacion_y_carga.sql`:** creación de tablas, definición de restricciones y relaciones, y carga inicial de datos.
-- 
+  
 - **`02_consultas_basicas.sql`:** consultas SQL para filtrar, ordenar, agrupar y analizar datos.
 
 ## Temas 
 - Consultas con `SELECT` y filtros con `WHERE`.
-- 
+  
 - Filtrado combinado con `AND` y `OR`.
-- 
+  
 - Ordenamiento con `ORDER BY` y limitación de resultados con `LIMIT`.
-- 
+  
 - Funciones de agregación: `COUNT`, `SUM`, `AVG`, `MIN` y `MAX`.
-- 
+  
 - Agrupaciones con `GROUP BY` y `HAVING`.
-- 
+  
 - Búsquedas con `LIKE`, `IN` y `BETWEEN`.
-- 
+  
 - Manejo de valores nulos con `IS NULL` e `IS NOT NULL`.
-- 
+  
 - Relaciones entre tablas con `JOIN` y `LEFT JOIN`.
-- 
+  
 - Uso de alias con `AS`.
-- 
+  
 - Restricciones de integridad con `NOT NULL`, `CHECK` y claves foráneas.
 
 ## Herramientas

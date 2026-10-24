@@ -135,3 +135,7 @@ FROM autores
 LEFT JOIN productos
     ON autores.id = productos.id_autor
 GROUP BY autores.id, autores.nombre;
+
+
+
+ 

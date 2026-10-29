@@ -1,15 +1,15 @@
 
-# Sistema de ventas SQL
+Sistema de ventas SQL
 
-## Descripción
+Descripción
+ 
 Proyecto práctico de SQL utilizando SQLite para crear y relacionar tablas, cargar datos de ejemplo y realizar consultas para analizar información de productos y autores.
 
-## Contenido
-- **`01_creacion_y_carga.sql`:** creación de tablas, definición de restricciones y relaciones, y carga inicial de datos.
-  
-- **`02_consultas_basicas.sql`:** consultas SQL para filtrar, ordenar, agrupar y analizar datos.
+Contenido
+creación de tablas, definición de restricciones y relaciones, y carga inicial de datos.
+Consultas SQL para filtrar, ordenar, agrupar y analizar datos.
 
-## Temas 
+Temas 
 - Consultas con `SELECT` y filtros con `WHERE`.
   
 - Filtrado combinado con `AND` y `OR`.
@@ -30,7 +30,7 @@ Proyecto práctico de SQL utilizando SQLite para crear y relacionar tablas, carg
   
 - Restricciones de integridad con `NOT NULL`, `CHECK` y claves foráneas.
 
-## Herramientas
+Herramientas
 
 - SQL
 
@@ -38,15 +38,16 @@ Proyecto práctico de SQL utilizando SQLite para crear y relacionar tablas, carg
   
 - DB Browser for SQLite
 
-## Cómo ejecutar el proyecto
 
-1. Abrir DB Browser for SQLite.
+Cómo ejecutar el proyecto
+
+Abrir DB Browser for SQLite.
+
+Crear una base de datos nueva y vacía.
    
-2. Crear una base de datos nueva y vacía.
-   
-3. Abrir el archivo `01_creacion_y_carga.sql` y ejecutar todas las consultas.
-   
-4. Abrir `02_consultas_basicas.sql` y ejecutar las consultas que se quieran probar.
+Abrir el archivo `01_creacion_y_carga.sql` y ejecutar todas las consultas.
+  
+Abrir `02_consultas_basicas.sql` y ejecutar las consultas que se quieran probar.
 
 
 
